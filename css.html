@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="./styles/css.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Code2Know</div>
+        <div class="head"><a href="./index.html">Home</a></div>
+        <div class="head"><a href="./index.html">Courses</a></div>
+        <div class="head"><a href="./Note.html" target="_blank">Note</a></div>
+        <div class="head">
+          <a href="./practice.html" target="_blank">Practice</a>
+        </div>
+        <div class="head"><a href="./index.html">Contact</a></div>
+        <div class="head dark">&#9775;</div>
+        <div class="head but">
+          <button>Login/Sign Up</button>
+        </div>
+        <div class="head but">
+          <button>Contact</button>
+        </div>
+      </div>
+      <hr />
+      <div class="container2">
+        <div class="head2">
+          <a href="./html.html" class="a2" target="_blank">HTML</a>
+        </div>
+        <div class="head2">
+          <a href="./css.html" class="a2">CSS</a>
+        </div>
+        <div class="head2">
+          <a href="./js.html" class="a2" target="_blank">JS</a>
+        </div>
+        <div class="head2">
+          <a href="./C++.html" class="a2" target="_blank">C++</a>
+        </div>
+        <div class="head2">
+          <a href="./DSA.html" class="a2" target="_blank">DSA</a>
+        </div>
+        <div class="head2">
+          <a href="./Java.html" class="a2" target="_blank">JAVA</a>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <div class="sidebar">
+      <h3>INTRODUCTION</h3>
+      <ul>
+        <li><a href="#">Information & History</a></li>
+        <li><a href="#">Syntax of CSS</a></li>
+        <li><a href="#">Ways to add CSS</a></li>
+        <li><a href="#">CSS Selectors</a></li>
+      </ul>
+
+      <h3>CSS Properties</h3>
+      <ul>
+        <li><a href="#">CSS Colors</a></li>
+        <li><a href="#">CSS Backgrounds</a></li>
+        <li><a href="#">CSS Borders</a></li>
+        <li><a href="#">CSS Images</a></li>
+        <li><a href="#">CSS Video</a></li>
+        <li><a href="#">CSS Fonts</a></li>
+        <li><a href="#">CSS Hover</a></li>
+        <li><a href="#">CSS Links</a></li>
+        <li><a href="#">CSS Buttons</a></li>
+        <li><a href="#">CSS Navigation Bar</a></li>
+      </ul>
+
+      <h3>CSS Designing</h3>
+      <ul>
+        <li><a href="#">CSS Display</a></li>
+        <li><a href="#">CSS FLexBox</a></li>
+        <li><a href="#">CSS Grid</a></li>
+        <li><a href="#">CSS Media Queries</a></li>
+      </ul>
+
+      <h3>CSS Advance Topics</h3>
+      <ul>
+        <li><a href="#">CSS 2D Transform</a></li>
+        <li><a href="#">CSS Transitions</a></li>
+        <li><a href="#">CSS Border Images</a></li>
+        <li><a href="#">CSS Shadows</a></li>
+        <li><a href="#">CSS Animations</a></li>
+      </ul>
+
+      <h3>Practice CSS</h3>
+      <ul>
+        <li>
+          <a>CLICK HERE</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <h1>Information & History</h1>
+      <p>
+        Let's start this journey of learning CSS together. This tutorial will
+        serve as a resource for students to learn CSS and use the code from
+        these lessons as a reference.<br />
+        Without further ado, let's dive into learning CSS.
+      </p>
+
+      <h2>What is CSS?</h2>
+      <p>
+        CSS stands for <strong>Cascading Style Sheets</strong>. It is a
+        stylesheet language that is used to describe the visual presentation of
+        a web page written in <strong>HTML (Hypertext Markup Language)</strong>.
+        HTML <em>creates the structure</em> of the page, while
+        <strong>CSS adds styling to that structure</strong>. This tutorial
+        assumes that you have prior knowledge of HTML.
+      </p>
+
+      <h2>Why the word "cascade"?</h2>
+      <p>
+        The term "cascade" refers to the
+        <strong>priority scheme</strong> determining which CSS rules are applied
+        when multiple rules target an element. This scheme takes into account
+        specificity and inheritance, ensuring that the most specific and latest
+        rules are applied.
+      </p>
+
+      <h2>Why use CSS?</h2>
+      <p>
+        CSS is used to provide styling to HTML elements, making web pages
+        visually appealing and user-friendly. Consider the video below to
+        understand how CSS can transform a webpage:
+      </p>
+      <video
+        autoplay="autoplay"
+        loop="loop"
+        muted
+        controls="controls"
+        width="630"
+        height="300"
+      >
+        <source
+          src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/css-home/v1.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <p>
+        Let us take this HTML page for example. Here is how it looks without CSS
+      </p>
+      <img src="./img1 (1).png" alt="beforecss" width="630" height="300" />
+      <p>This is how it looks after adding CSS</p>
+      <img src="./img2.png" alt="beforecss" width="630" height="300" />
+      <h3>Analogy to Understand CSS</h3>
+      <p>
+        Imagine reading a book with only plain text. It's quite dull, isn't it?
+        Now picture a book enriched with different colors, fonts, and styles.
+        That's what CSS does to a webpage.
+      </p>
+      <h3>How Does CSS Work?</h3>
+      <p>
+        CSS operates by selecting HTML elements and applying styles to them.
+        Styles dictate the appearance of elements on a webpage. You can target
+        HTML elements, classes, or IDs, defining properties like colors, fonts,
+        margins, etc.
+      </p>
+      <h3>Key Features of CSS</h3>
+      <ol>
+        Styles and layouts of web pages.
+      </ol>
+      <ol>
+        Works alongside HTML and XML documents.
+      </ol>
+      <ol>
+        Enables responsive design for different screen sizes.
+      </ol>
+      <ol>
+        CSS is now modularized, with ongoing updates rather than version
+        numbers.
+      </ol>
+      <ol>
+        Allows reusability of the same rules across multiple HTML documents.
+      </ol>
+      <h2>Syntax of CSS</h2>
+      <p>
+        CSS follows a rule-based structure. Each rule consists of a selector and
+        a declaration block. Selectors pick the HTML elements, while declaration
+        blocks contain pairs of properties and values. The general syntax for
+        writing CSS.
+      </p>
+      <pre style="font-size: 18px">
+        selector{
+            property: value;
+        }
+      </pre>
+      <hr />
+      <h2>Ways to add CSS</h2>
+      <p>
+        There are three different ways to add CSS to an HTML page, which are:
+      </p>
+      <ol>
+        Inline CSS
+      </ol>
+      <ol>
+        Internal CSS
+      </ol>
+      <ol>
+        External CSS
+      </ol>
+      <h3>Inline CSS</h3>
+      <p>
+        Inline CSS is used to add custom properties to specific elements. The
+        added style will only reflect on that particular element only. To use
+        inline CSS, Insert the "style" attribute within the HTML element's
+        opening tag.
+      </p>
+      <h3>Internal CSS</h3>
+      <p>
+        Internal CSS is used to apply custom style to the multiple elements on
+        the same page. The style can be used throughout the HTML page.
+      </p>
+      <p>
+        Internal CSS is defined in a <strong>style block</strong>, which will be
+        inside the head section.
+      </p>
+      <h3>External CSS</h3>
+      <p>
+        External CSS works similarly to internal CSS but with a twist. Instead
+        of adding the styles within the HTML file, we create a separate file
+        with .css extension. This file will hold all the styling details. Then,
+        we link this file to the HTML page, giving it the instructions on how to
+        look.
+      </p>
+
+      <p>The following video will explain, how to link a CSS file to HTML.</p>
+      <br />
+      <video
+        autoplay="autoplay"
+        loop="loop"
+        muted
+        controls="controls"
+        width="630"
+        height="300"
+      >
+        <source
+          src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/ways-to-add-css/add external css demo.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <br />
+      <hr />
+      <br />
+      <h1>CSS Selectors</h1>
+      <br />
+      <h2>What are CSS Selectors?</h2>
+      <p>
+        CSS selectors allow us to choose specific elements and apply styles to
+        them. Suppose we want to add a custom style to only a specific tag(s).
+        There, We can make use of CSS selector.
+      </p>
+      <h2>Universal Selector</h2>
+      <p>
+        Universal selector represented by "*" targets all the HTML elements on
+        the page.
+      </p>
+      <p>The syntax of Universal Selector is as follows:</p>
+      <p>Consider the code snippet:</p>
+      <pre style="font-size: 18px">
+        &lt;html>
+
+        &lt;head>
+                &lt;style>
+                        *{
+                          color: purple;
+                          text-align: center;
+                        }
+                &lt;/style>
+         &lt;head>
+
+         &lt;body>
+            &lt;p>Welcome to &lt;/p>
+            &lt;h1>Code2Know&lt;/h1>
+          &lt;/body>
+          
+          &lt;/html>
+      </pre>
+      <br />
+      <p>Output:</p>
+      <br />
+      <img
+        src="./universalselector2.png"
+        alt="universal selector"
+        width="630"
+        height="250px"
+      />
+      <br />
+      <br />
+      <hr />
+      <h2>Practice CSS</h2>
+      <iframe
+        src="https://www.programiz.com/html/online-compiler/"
+        frameborder="0"
+        height="800"
+        width="100%"
+      ></iframe>
+
+      <br />
+    </div>
+  </body>
+</html>
